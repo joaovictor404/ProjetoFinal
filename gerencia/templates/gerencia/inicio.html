@@ -1,0 +1,172 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block center %}
+<!-- our -->
+<div id="games" class="our">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="titlepage">
+                    <h2>Introdução</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 margin_bottom">
+                <div class="row">
+
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                        <div class="two-box">
+                            <figure><img src="{%static 'images/hydra.png'%}" alt="#" /></figure>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+
+                        <div class="Games">
+                            <h3><br>O que é o Hydra?</h3>
+                            <p>Hydra é um Lançador de Jogos com o seu próprio incorporado Cliente BitTorrent e a raspador de reembalagem autogerenciado.
+                                O launcher é escrito em TypeScript (Electron) e Python, que lida com o sistema de torrent usando libtorrent.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 margin_bottom">
+                <div class="row">
+
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                        <div class="two-box">
+                            <figure><img src="{%static 'images/cloud.png'%}" alt="#" /></figure>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+
+                        <div class="Games">
+                            <h3>Hydra Cloud</h3>
+                            <p>O plano Hydra Cloud oferece sincronização automática de jogos, saves e configurações na nuvem, permitindo acesso a partir de qualquer dispositivo. Mas você não precisa de uma assinatura para visualizar ou obter conquistas. Elas são totalmente gratuitas. contudo note que, caso você formate seu computador, ou use outro computador, suas conquistas desbloqueadas não irão ser levadas junto, visto que elas não serão sincronizadas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="row">
+
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                        <div class="two-box">
+                            <figure><img src="{%static 'images/conquistas.png'%}" alt="#" /></figure>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-12">
+
+                        <div class="Games">
+                            <br>
+                            <h3>Conquistas</h3>
+                            <p>
+                                As conquistas no Hydra são desbloqueadas com base em arquivos gerados pelos jogos. O Hydra mapeia e interpreta esses arquivos para registrar as conquistas. Se as conquistas não estiverem sendo desbloqueadas, isso significa que o jogo não está registrando corretamente as conquistas. Se os arquivos de conquista estiverem sendo gerados, o Hydra irá desbloqueá-las normalmente. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- end our -->
+ 
+<!-- We are -->
+<div id="software" class="We_are">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="titlepage">
+                    <h2>Pontos positivos do Launcher</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                 <div class="box_bg">
+                     <div class="box_bg_img">
+                         <figure><img src="{%static 'images/launcher.png'%}"></figure>
+                     </div>
+                 </div>
+             </div>
+             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 border_right">
+                 <div class="box_text">
+                     <p>O Hydra Launcher é uma plataforma totalmente livre de anúncios, garantindo uma experiência suave e sem interrupções. Ele conta com um cliente BitTorrent integrado, permitindo downloads eficientes diretamente pelo launcher. Além disso, possui um raspador de repacks autogerenciado, que mantém sua biblioteca de jogos sempre atualizada de forma automática. O Hydra também oferece integração com o How Long To Beat (HLTB), disponibilizando informações sobre a duração dos jogos diretamente na página de cada título. Outro diferencial é a personalização dos caminhos de download, permitindo que você escolha onde seus jogos e arquivos serão armazenados. Por fim, o launcher realiza atualizações regulares nas fontes de repacks, assegurando uma experiência fluida e sem atrasos.</p>
+                     <br>
+                     <a href="https://hydralauncher.net/windows">Baixar agora</a>
+                 </div>
+             </div> 
+        </div>
+    </div>
+</div>
+<!-- end We are -->
+
+<!-- about  -->
+<div id="about" class="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="titlepage">
+                    <h2>Como adicionar os jogos nos Hydra?</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="about-box">
+                    <figure><img src="{%static 'images/links.png'%}" alt="#" /></figure>
+
+                    <p> Navegue pela plataforma para encontrar os jogos que deseja baixar. Se você encontrar problemas com a falta de jogos disponíveis, pode ser necessário adicionar novas fontes de download, o site <a style="color: #cc2121;"href="https://hydralinks.cloud/">Hydra Community Links</a> disponibiliza a maioria das fontes.</p>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- end abouts -->
+
+<!-- contact -->
+<div id="contact" class="contact">
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-md-12">
+
+            <form class="contact_bg">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                        <input class="contactus" placeholder="Name" type="text" name="Name">
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <input class="contactus" placeholder="Phone" type="text" name="Email">
+                    </div>
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                        <input class="contactus" placeholder="Email" type="text" name="Email">
+                    </div>
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                        <textarea class="textarea" placeholder="Message" type="text" name="Message"></textarea>
+                    </div>
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                        <button class="send">Send</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
+</div>
+
+<!-- end contact -->
+
+{% endblock %}
